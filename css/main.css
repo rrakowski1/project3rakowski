@@ -18,6 +18,12 @@ body {
   padding: 0;
   border: 0;
   margin: 0;
+
+  &:hover {
+   span {
+      display: none;
+    }
+  }
 }
 
 body {
@@ -29,12 +35,22 @@ body {
 .garden h1 {
   font-size: 400%;
   color: white;
-  text-align: center;
+  margin-left: 30%;
   margin-top: 3%;
 }
 
 .garden img {
-  width: 80%;
-  margin-left: 8%;
-  border: 4px solid black;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.garden canvas {
+  cursor: crosshair;
+}
+
+.garden span {
+  img: url("../images/flowerbud.png");
+  img: url("../images/flowerbud2.png");
+  img: url("../images/flowerbud3.png");
+  img: url("../images/flowerbud4.png");
 }
