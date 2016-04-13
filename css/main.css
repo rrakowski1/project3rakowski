@@ -21,11 +21,12 @@ body {
   background-size: 100% 100%;
   text-align: center;
 }
-/*/////////didnt work///////////////////////*/
-.h1 {
+
+h1 {
+  margin-top: 3%;
   color: white;
 }
-/*//////////////////////////////////////////*/
+
 #garden {
   width: 50%;
   margin: 1em auto 0 auto;
