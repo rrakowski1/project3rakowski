@@ -29,28 +29,38 @@ body {
 body {
   background-image: url("../images/dirt.jpg");
   background-size: 100% 100%;
+  text-align: center;
 
 }
 
-.garden h1 {
-  font-size: 400%;
+.h1 {
   color: white;
-  margin-left: 30%;
-  margin-top: 3%;
 }
 
-.garden img {
-  width: 60%;
-  margin-left: 5%;
+#garden {
+  width: 50%;
+  height: 12em;
+  margin: 1em auto 0 auto;
+  position: center;
+  z-index: 0;
 }
 
-.garden canvas {
-  cursor: crosshair;
+.flower {
+  height: 10px;
+  width: 10px;
+  margin-top: -5px;
+  margin-left: -5px;
+  position: absolute;
+  z-index: 1;
+  clear:both;
 }
 
-.garden span {
-  img: url("../images/flowerbud.png");
-  img: url("../images/flowerbud2.png");
-  img: url("../images/flowerbud3.png");
-  img: url("../images/flowerbud4.png");
-}
+/*///////////example///////////////////*/
+.rose { background-color: red; }
+/*////////////////////////////////////*/
+
+
+.bud {img: url("../images/flowerbud.png"); }
+.tulip {img: url("../images/flowerbud2.png"); }
+.orangeflower {img: url("../images/flowerbud3.png"); }
+.purpleflower {img: url("../images/flowerbud4.png"); }
