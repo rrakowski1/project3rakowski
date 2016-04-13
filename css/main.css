@@ -1,5 +1,3 @@
-// out: ../css/main.css, sourcemap: true
-
 /* fixes collapsing elements when items inside them are floated left or right
 found at http://stackoverflow.com/questions/8554043/what-is-clearfix */
 .clearfix:after {
@@ -10,7 +8,6 @@ found at http://stackoverflow.com/questions/8554043/what-is-clearfix */
   height: 0;
   clear: both;
 }
-
 html,
 body {
   width: 100%;
@@ -19,43 +16,52 @@ body {
   border: 0;
   margin: 0;
 }
-
 body {
   background-image: url("../images/dirt.jpg");
   background-size: 100% 100%;
   text-align: center;
 }
-
 /*/////////didnt work///////////////////////*/
 .h1 {
   color: white;
 }
 /*//////////////////////////////////////////*/
-
-#garden .garden {
+#garden {
   width: 50%;
-  height: 12em;
   margin: 1em auto 0 auto;
   position: relative;
   z-index: 0;
 }
-
+#garden img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .flower {
   height: 60px;
   width: 60px;
-  margin-top: -5px;
-  margin-left: -5px;
+  margin-top: -30px;
+  margin-left: -30px;
   position: absolute;
   z-index: 1;
-  clear:both;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-
 /*///////////example///////////////////*/
-.rose { background-color: red; }
+.rose {
+  background-color: red;
+}
 /*////////////////////////////////////*/
-
-
-.bud {background-image: url("../images/flowerbud.png"); }
-.tulip {background-image: url("../images/flowerbud2.png"); }
-.orangeflower {background-image: url("../images/flowerbud3.png"); }
-.purpleflower {background-image: url("../images/flowerbud4.png"); }
+.bud {
+  background-image: url("../images/flowerbud.png");
+}
+.tulip {
+  background-image: url("../images/flowerbud2.png");
+}
+.orangeflower {
+  background-image: url("../images/flowerbud3.png");
+}
+.purpleflower {
+  background-image: url("../images/flowerbud4.png");
+}
