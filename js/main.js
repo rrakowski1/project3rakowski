@@ -22,11 +22,6 @@ $(function() {
     $("#garden").append(flower);
   });
 
-  ////////////////////examle///////////////////////////
-  $("#rose").click( function() {
-    currentFlower = '<div class="flower rose"></div>';
-  });
-/////////////////////////////////////////////////////////
 
   $("#bud").click( function() {
     currentFlower = '<div class="flower bud"></div>';

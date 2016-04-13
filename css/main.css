@@ -48,11 +48,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
 }
-/*///////////example///////////////////*/
-.rose {
-  background-color: red;
-}
-/*////////////////////////////////////*/
+
 .bud {
   background-image: url("../images/flowerbud.png");
 }
