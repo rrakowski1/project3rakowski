@@ -32,22 +32,29 @@ body {
 }
 /*//////////////////////////////////////////*/
 
-#garden .garden {
+#garden{
   width: 50%;
-  height: 12em;
   margin: 1em auto 0 auto;
   position: relative;
   z-index: 0;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 .flower {
   height: 60px;
   width: 60px;
-  margin-top: -5px;
-  margin-left: -5px;
+  margin-top: -30px;
+  margin-left: -30px;
   position: absolute;
   z-index: 1;
-  clear:both;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /*///////////example///////////////////*/
