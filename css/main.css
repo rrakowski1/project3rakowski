@@ -46,8 +46,8 @@ h1 {
 .flower {
   height: 30%;
   width: 30%;
-  margin-top: -30px;
-  margin-left: -80px;
+  margin-top: -5%;
+  margin-left: -15%;
   position: absolute;
   z-index: 1;
   background-size: contain;
