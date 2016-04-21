@@ -14,12 +14,20 @@ $(function() {
     var relativeX = (clickLocaton.pageX - offset.left);
     var relativeY = (clickLocaton.pageY - offset.top);
 
+    var myGarden = $("#garden");
+    var gardenWidth = myGarden.outerWidth();
+    var gardenHeight = myGarden.outerHeight();
+
+    var flowerTop = ((relativeY / gardenHeight) * 100) + "%";
+    var flowerLeft = ((relativeX / gardenWidth) * 100) + "%";
+
+
     $(flower).css({
-      top: relativeY,
-      left: relativeX
+      top: flowerTop,
+      left: flowerLeft
     });
 
-    $("#garden").append(flower);
+    myGarden.append(flower);
   });
 
 

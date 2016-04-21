@@ -30,18 +30,18 @@ h1 {
 }
 #garden {
   width: 80%;
+  border: 6px solid yellow;
   margin: 1em auto 0 auto;
   overflow: hidden;
   position: relative;
   z-index: 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #garden img {
-  width: 99%;
-  border: 6px solid yellow;
+  width: 100%;
   height: auto;
   display: block;
   margin: auto;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .flower {
   height: 30%;
